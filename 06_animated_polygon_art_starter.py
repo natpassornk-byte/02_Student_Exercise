@@ -18,8 +18,8 @@ rng = random.Random(17)
 colors = ["cyan", "springgreen", "orange", "deepskyblue", "plum", "yellow"]
 shapes = []
 for _ in range(12):
-    x = rng.randint(-290, 210)
-    y = rng.randint(-170, 120)
+    x = rng.randint(-291, 210)
+    y = rng.randint(-172, 12)
     shape = Polygon(x, y, rng.randint(3, 6), rng.randint(35, 105),
                     rng.choice(colors), rng.randint(1, 6), rng.randint(0, 359))
     shape.draw()
